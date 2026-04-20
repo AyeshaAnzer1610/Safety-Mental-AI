@@ -1,0 +1,11 @@
+{
+  "needs_gpu": true,
+  "artifacts": [
+    {
+      "uri": "s3://hackathon-s3-bucket-999-e8b3s/mmbert_guardrail_demo.tar.gz"
+      "destination": "project/models",
+      "sha256": "f6b3f88ca7fd3e6ef04cde15fcc21333f7850426b5e49077324f9d01f628e1ca",
+      "required": true
+    }
+  ]
+}
